@@ -1,0 +1,157 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  background-size: cover;
+}
+/* Colors */
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .1);
+}
+
+i {
+  color: hsl(120, 0%, 30%)	;
+}
+
+h1 {
+  color: hsl(120, 0%, 10%);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+h2 {
+  color: hsl(120, 0%, 30%);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p1 {
+  color: hsl(120, 0%, 30%);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+/* Positioning */
+
+.profile-card {
+  width: 500px;
+  max-width: calc(100vw - 10px);
+}
+
+body {
+    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Calibri", sans-serif;
+}
+
+.links {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.head, .content {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile-image {
+  margin-top: -100px;
+}
+
+
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+}
+
+/* Forming */
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+h1{
+font-size: 150%;
+font-weight: 800;
+}
+
+h2{
+font-size: 110%;
+font-weight: 1000;
+}
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+    margin: 0.5rem;
+}
+
+/* Background */
+
+body {
+  background: url('assets/background_watercolor.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.profile-card {
+  border-radius: 70px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+img {
+  padding: 3px;
+  background-color: white;
+    filter: grayscale(80%);
+}
+.content {
+  border-top: 1px solid hsla(0, 0%, 50%, .8);
+}
+
+/* Transformation */
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+    filter: grayscale(0%);
+}
+
+section:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
+/* Responsive */
+
+@media (orientation: landscape) {
+  body {
+    font-size: 2vh;
+  }
+}
+
+@media (max-width: 576px) {
+}
+
+@media (min-width: 1200px) {
+  }
+}
+
+
+
