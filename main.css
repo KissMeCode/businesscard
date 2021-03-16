@@ -34,6 +34,12 @@ p1 {
   letter-spacing: 0.2em;
 }
 
+section {
+  color: hsl(120, 0%, 30%);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
 /* Positioning */
 
 .profile-card {
